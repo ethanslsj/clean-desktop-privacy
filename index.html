@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · 简洁桌面（QingjieDesktop）</title>
+<meta name="description" content="简洁桌面（QingjieDesktop）隐私政策：不收集任何个人数据，所有数据仅保存在本机。">
+<meta name="robots" content="index,follow">
+<style>
+  :root { --bg:#0b1016; --fg:#e7ecf2; --muted:#9aa7b4; --line:#1d2733; --accent:#2a6fd6; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.75 -apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+         -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:820px; margin:0 auto; padding:48px 24px 80px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:24px; margin-bottom:32px; }
+  h1 { font-size:26px; margin:0 0 6px; }
+  .meta { color:var(--muted); font-size:14px; }
+  h2 { font-size:19px; margin:36px 0 10px; color:#fff; }
+  h2.en { font-size:15px; letter-spacing:.02em; text-transform:none; }
+  p { margin:10px 0; }
+  ul { margin:10px 0; padding-left:22px; }
+  li { margin:6px 0; }
+  code { background:#141c26; padding:2px 6px; border-radius:5px; font-size:14px; color:#cfe0f5; }
+  a { color:var(--accent); }
+  hr.split { border:0; border-top:1px solid var(--line); margin:56px 0 0; }
+  .en-block { color:#c9d4e0; }
+  .en-block h2 { color:#eef3f8; }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line);
+           color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>隐私政策 · 简洁桌面（QingjieDesktop）</h1>
+    <div class="meta">发布者：ethan_slsj &nbsp;·&nbsp; 生效日期 / 最后更新：2026-09-23</div>
+  </header>
+
+  <h2>我们收集什么</h2>
+  <p><strong>不收集任何个人数据。</strong></p>
+  <p>简洁桌面是一款完全运行在你本地电脑上的桌面启动器。它：</p>
+  <ul>
+    <li>不会上传、不会向任何服务器发送你的文件、设置或使用行为；</li>
+    <li>不会要求登录账号，不集成任何广告或统计分析 SDK；</li>
+    <li>不会主动访问网络（仅在你在应用内主动点击网址时，调用系统默认浏览器打开该网址）。</li>
+  </ul>
+
+  <h2>数据存于何处</h2>
+  <p>所有数据仅保存在你本机：</p>
+  <ul>
+    <li>设置（专注记录、任务、常用网址、壁纸偏好等）写入本机用户目录下的 <code>settings.json</code>；</li>
+    <li>应用会在本地扫描你指定的文件夹（桌面、文档、下载、图片、音乐、视频）用于本地搜索；索引仅驻留内存，不落盘、不上传；</li>
+    <li>退出时清理自身产生的临时解包残留（仅删除能确认属于本应用的目录）。</li>
+  </ul>
+
+  <h2>所需系统能力说明</h2>
+  <p>为提供本地文件搜索功能，应用在 Microsoft Store 包中声明了 <code>broadFileSystemAccess</code>（广泛文件系统访问）受限能力，用于读取上述已知文件夹以建立本地文件名索引。该访问仅在本机进行，索引数据不上传任何服务器。你可以随时在 Windows 设置中撤回该权限，届时文件搜索功能将不可用（其余功能不受影响）。</p>
+
+  <h2>第三方</h2>
+  <p>无。应用不调用任何第三方服务、不嵌入任何跟踪脚本、不与任何第三方共享或出售数据。</p>
+
+  <h2>儿童隐私</h2>
+  <p>本应用不面向儿童设计，也不会有意收集儿童的任何信息（事实上不收集任何人的信息）。</p>
+
+  <h2>政策变更</h2>
+  <p>若本政策发生变更，将更新本页顶部的「最后更新」日期。由于应用不收集数据，变更预计仅涉及文字表述。</p>
+
+  <h2>你的权利</h2>
+  <p>由于数据从不离开你的设备，你随时可删除本应用或其用户数据目录来彻底清除全部本地数据。</p>
+
+  <h2>联系</h2>
+  <p>如有疑问，请联系：<a href="mailto:ethanslsj@gmail.com">ethanslsj@gmail.com</a></p>
+
+  <hr class="split">
+
+  <div class="en-block">
+    <h2 class="en">English Summary</h2>
+    <p><strong>Clean Desktop (QingjieDesktop) does not collect any personal data.</strong></p>
+    <ul>
+      <li>All settings, tasks, focus records and search indexes stay on your device. Nothing is uploaded to any server.</li>
+      <li>The app contains no advertising, analytics or tracking SDKs, and makes no network requests on its own (links you click are opened by your system browser).</li>
+      <li>The Microsoft Store package declares the restricted capability <code>broadFileSystemAccess</code> solely to index filenames in your own Desktop / Documents / Downloads / Pictures / Music / Videos folders for local search. The index is kept in memory and never uploaded.</li>
+      <li>You can revoke that permission at any time in Windows Settings; only the file-search feature would stop working.</li>
+      <li>Contact: ethanslsj@gmail.com</li>
+    </ul>
+  </div>
+
+  <footer>© 2026 ethan_slsj · 简洁桌面 QingjieDesktop</footer>
+</div>
+
+</body></html>
